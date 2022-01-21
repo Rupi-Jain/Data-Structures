@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
   public static void main(String[] args) {
     // Array numbers = new Array(3);
@@ -36,12 +38,25 @@ public class Main {
     list.addLast(40);
     list.addFirst(5);
     list.print();
-    System.out.println("--------");
-    list.removeFirst();
-    list.print();
-    System.out.println("--------");
-    list.removeLast();
-    list.print();
+    // System.out.println("--------");
+    // list.removeFirst();
+    // list.print();
+    // System.out.println("--------");
+    // list.removeLast();
+    // list.print();
+    // System.out.println("--------");
+    // System.out.println(list.indexOf(5));
+
+    // var array = list.toArray();
+    // System.out.println(Arrays.toString(array));
+    // list.reverse();
+    // list.print();
+
+    // System.out.println(list.getKthFromTheEnd(1));
+    list.middle();
+    var list1 = LinkedList.createWithLoop();
+    System.out.println(list1.hasLoop());
+    System.out.println(list.hasLoop());
   }
 
 }
